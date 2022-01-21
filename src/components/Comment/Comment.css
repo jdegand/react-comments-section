@@ -1,0 +1,52 @@
+.Comment {
+    background: #fff;
+    display: grid;
+    grid-template-areas: "side user"
+                         "side content"
+                         "side content"
+                         ".    content"
+    ;
+    width: 80vw;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.side {
+    grid-area: side;
+}
+
+.user {
+    grid-area: user;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.content {
+    grid-area: content;
+    padding: 0 100px;
+}
+
+.Reply {
+    background: #fff;
+    display: grid;
+    grid-template-areas: "side user"
+                         "side content"
+                         "side content"
+                         ".    content"
+    ;
+    width: 60vw;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}

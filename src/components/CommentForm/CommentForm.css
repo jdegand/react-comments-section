@@ -1,0 +1,22 @@
+.CommentForm {
+    background: #fff;
+    display: grid;
+    grid-template-areas: "user input button"
+                         " .   input    ."
+    ;
+    width: 80vw;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.user {
+    grid-area: user;
+}
+
+.input {
+    grid-area: input;
+}
+
+.button {
+    grid-area: button;
+}
