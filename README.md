@@ -40,7 +40,7 @@ Users should be able to:
 
 ### What I learned
 
-- My initial hesitation at changing the initial data.json file made this much harder.
+- My hesitation to change the provided data.json file made this much harder.
 - Flat data is best. 
 
 ### Continued development
